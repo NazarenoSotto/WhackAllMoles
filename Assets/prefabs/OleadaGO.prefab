@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &31761577985773020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31761577985773022}
+  - component: {fileID: 31761577985773023}
+  m_Layer: 0
+  m_Name: SistemaOleadasGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &31761577985773022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31761577985773020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.18, y: -1.48, z: -0.053724043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &31761577985773023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31761577985773020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5592606e3e97d9438c87da60e14d428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaTopos:
+  - {fileID: 6339535051585187197, guid: 3704be02218db114c91c959b7b2631c8, type: 3}
+  - {fileID: 806209620913761208, guid: 8d0221aded1ffb5408e7dcba938ed81d, type: 3}
+  - {fileID: 5047501883041959020, guid: 5deb16353afd11c44b9d013b4f2e46a1, type: 3}
+  - {fileID: 1431301903046056521, guid: b13d926ea42dc5b459bebaf6331c74f0, type: 3}
+  - {fileID: 8321219733561987351, guid: 1721384b35965f94b8492a22e3e2cc74, type: 3}
+  listaCant: 1e0000000a000000050000001e00000003000000
+  listaProb: 0100000001000000010000004800000001000000
+  listaProbReal:
+  - 0.013157895
+  - 0.013157895
+  - 0.013157895
+  - 0.94736844
+  - 0.013157895
+  controladorSpawn: {fileID: 0}
+  controlSpawn: {fileID: 0}
